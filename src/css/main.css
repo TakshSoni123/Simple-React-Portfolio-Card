@@ -1,1 +1,44 @@
 /* Your CSS here. */
+
+body{
+    background-color: black;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.background{
+    background-color: white;
+    min-height: 580px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: block;
+}
+
+.desc {
+    text-align: left;
+}
